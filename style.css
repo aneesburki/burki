@@ -1,32 +1,73 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 header{
     position: sticky;
-    top: 0%;
-    height: 40px;
+    top: 0;
     background-color: white;
-    margin: 20px;
-    padding: 20px;
-    box-shadow: 0px 4px 8px rgba(0,0,0, 0.1);
-    border-radius: 10PX;
-    }
-    
-    .mega-tabs a{
-    text-decoration: none;
-    font-size: 22px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    /* box-shadow value is sensitive asf, it cannot stand a chance to commas. e.g. 0px, 5px, 5px (this wouldn't work) */
+    box-shadow: 0px 6px 8px rgba(0,0,0, 0.1);
+}
+
+/* rgba is sensitive asf too, rgba (value) wouldn't work */
+body{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.logo{
     color: dodgerblue;
-    padding-right: 10px;
-    padding-left: 20px;
-    }
-    
-    body{
-        background-color: rgb(244, 244, 244);
-    }
-    
-    .logo{
-        width: 40px;
-        padding-right: 20px;
-    }
-    
+    display: inline;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* no compromise in space. eg .logo :hover; wouldn't work */
+.logo:hover{
+    color: dodgerblue;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+li{
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    color: dodgerblue;
+    padding-right: 30px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+li:hover{
+    list-style: none;
+    display: inline-block;
+    color: dodgerblue;
+    padding-right: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.tags-header{
+    padding-left: 60%;
+}
+
+.main-header{
+    height: 80px;
+}
+
+
+
+
+
+
+
     .whole{
         margin-top: 20px;
     }
