@@ -2,9 +2,11 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+strong{
+color: dodgerblue;
+}
+
 header{
-    position: sticky;
-    top: 0;
     background-color: white;
     margin: 10px;
     padding: 10px;
@@ -18,48 +20,31 @@ body{
     background-color: rgba(0, 0, 0, 0.1);
 }
 
-.logo{
-    color: dodgerblue;
-    display: inline;
-    font-size: 30px;
-    font-weight: bold;
-}
-/* no compromise in space. eg .logo :hover; wouldn't work */
-.logo:hover{
-    color: dodgerblue;
-    font-size: 30px;
-    font-weight: bold;
-    cursor: pointer;
-    text-decoration: underline;
-}
 
 li{
     list-style: none;
     text-decoration: none;
     display: inline-block;
+    padding-right: 10px;
     color: dodgerblue;
-    padding-right: 30px;
     font-size: 25px;
     font-weight: bold;
 }
-
+/* no compromise in space. eg .li :hover; wouldn't work */
 li:hover{
     list-style: none;
     display: inline-block;
     color: dodgerblue;
-    padding-right: 30px;
+    padding-right: 10px;
     font-size: 25px;
     font-weight: bolder;
     cursor: pointer;
     text-decoration: underline;
 }
 
-.tags-header{
-    padding-left: 60%;
-}
-
-.main-header{
-    height: 80px;
+a{
+    text-decoration: none;
+    color: dodgerblue;
 }
 
 
@@ -68,6 +53,7 @@ li:hover{
 
 
 
+    
     .whole{
         margin-top: 20px;
     }
@@ -87,39 +73,55 @@ li:hover{
         text-align: center;
     }
     
-    .main-heading{
+    .name-heading{
         text-align: center;
         color: dodgerblue;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         font-size: 55px;
     }
     
+
+
+
+
+
+
+
+
     .headings{
         color: dodgerblue;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         border-radius: 10px;
         padding: 4px;
         width: 180px;
         box-shadow: inset 0px 0px 2px 1px dodgerblue;
         text-align: center;
+        /* For centering the headings, i used margin smh, i hope ther is another way to do that. */
+        margin-left: 25%;
     }
-    
-    
-    .main-div{
-        margin: 20px;
-        padding: 20px;
-        text-align: center;
+
+
+
+    .cv-div{
+text-align: center;
     }
+
+
     
     .box1, .box2, .box3{
         display: inline-block;
         width: 400px;
-        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
         margin: 20px;
         padding: 20px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0px 4px 8px rgba(0,0,0, 0.5);
     }
+
+
+
     
     footer {
+        margin: 10px;
+        padding: 10px;
                 border-radius: 10px;
                 background-color: white;
                 color: rgb(74, 71, 71);
