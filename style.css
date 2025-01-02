@@ -26,10 +26,11 @@ li{
     list-style: none;
     text-decoration: none;
     display: inline-block;
-    padding-right: 10px;
     color: dodgerblue;
     font-size: 25px;
     font-weight: bold;
+    display: flex;
+    gap: 10px;
 }
 /* no compromise in space. eg .li :hover; wouldn't work */
 li:hover{
