@@ -37,7 +37,6 @@ li:hover{
     list-style: none;
     display: inline-block;
     color: dodgerblue;
-    padding-right: 10px;
     font-size: 25px;
     font-weight: bolder;
     cursor: pointer;
