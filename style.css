@@ -8,8 +8,8 @@ color: dodgerblue;
 
 header{
     background-color: white;
-    margin: 10px;
-    padding: 10px;
+    display: flex;
+    gap: 10px;
     border-radius: 10px;
 
     /* box-shadow value is sensitive asf, it cannot stand a chance to commas. e.g. 0px, 5px, 5px (this wouldn't work) */
@@ -29,8 +29,7 @@ li{
     color: dodgerblue;
     font-size: 25px;
     font-weight: bold;
-    display: flex;
-    gap: 10px;
+
 }
 /* no compromise in space. eg .li :hover; wouldn't work */
 li:hover{
