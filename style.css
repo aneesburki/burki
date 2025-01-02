@@ -16,7 +16,7 @@ header{
 }
 
 ul{
-    display: flex;
+    float: right;
     gap: 10px;
 }
 
