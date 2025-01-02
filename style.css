@@ -8,13 +8,16 @@ color: dodgerblue;
 
 header{
     background-color: white;
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+
     border-radius: 10px;
 
     /* box-shadow value is sensitive asf, it cannot stand a chance to commas. e.g. 0px, 5px, 5px (this wouldn't work) */
     box-shadow: 0px 0px 8px rgba(0,0,0, 0.2);
+}
+
+.list-flex{
+        display: flex;
+    gap: 10px;
 }
 
 /* rgba is sensitive asf too, rgba (value) wouldn't work */
